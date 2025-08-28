@@ -19,7 +19,7 @@
 
 *   **[RPC Framework for Embedded](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** - Фреймворк для удаленного вызова процедур на C++ для embedded систем с поддержкой UART протокола (STM32, FreeRTOS).
 *   **[Desktop Analytics App](https://github.com/NikitaPotapovIt/CPP3DW)** - Кроссплатформенное десктопное приложение для анализа данных с графическим интерфейсом на Qt и С++.
-*   **[Desktop Calculator App](https://github.com/NikitaPotapovIt/CPP3DW)** - Кроссплатформенный десктопный инженерный калькулятор, кредитный калькулятор с графическим интерфейсом на Qt и С++.
+*   **[Desktop Calculator App](https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0)** - Кроссплатформенный десктопный инженерный калькулятор, кредитный калькулятор с графическим интерфейсом на Qt и С++.
 *   **[Web Task Manager](https://github.com/NikitaPotapovIt/sez)** - Веб-приложение для управления задачами с бэкендом на Django.
 
 *Проекты в разработке...*

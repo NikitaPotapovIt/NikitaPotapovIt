@@ -50,7 +50,7 @@
 
 ---
 
-**🌱 Изучаю в настоящее время:**
+**Изучаю в настоящее время:**
 *   ![Embedded](https://img.shields.io/badge/Embedded-000000?style=flat&logo=embedded-systems&logoColor=white) Embedded системы (STM32, FreeRTOS)
 *   ![Microservices](https://img.shields.io/badge/Microservices-009688?style=flat&logo=microservices&logoColor=white) Микросервисная архитектура
 *   ![Cloud](https://img.shields.io/badge/Cloud-FF9900?style=flat&logo=amazon-aws&logoColor=white) Cloud technologies (AWS, Docker)

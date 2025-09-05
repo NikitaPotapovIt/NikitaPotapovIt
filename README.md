@@ -9,9 +9,9 @@
 *   **Языки:** ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 *   **Бэкенд:** ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) 
 *   **Фронтенд:** ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-*   **Десктоп:** ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white)
-*   **Базы данных:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-*   **Инструменты:** ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
+*   **Десктоп:** ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white) ![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=flat&logo=python&logoColor=white)
+*   **Базы данных:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+*   **Инструменты:** ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-5A4BBE?style=flat&logo=uvicorn&logoColor=white)
 
 ---
 
@@ -20,7 +20,8 @@
 *   **[RPC Framework for Embedded](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** - Фреймворк для удаленного вызова процедур на C++ для embedded систем с поддержкой UART протокола (STM32, FreeRTOS).
 *   **[Desktop Analytics App](https://github.com/NikitaPotapovIt/CPP3DW)** - Кроссплатформенное десктопное приложение для анализа данных с графическим интерфейсом на Qt и С++.
 *   **[Desktop Calculator App](https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0)** - Кроссплатформенный десктопный инженерный калькулятор, кредитный калькулятор с графическим интерфейсом на Qt и С++.
-*   **[Web Task Manager](https://github.com/NikitaPotapovIt/sez)** - Веб-приложение для управления задачами с бэкендом на Django.
+*   **[Web Task Manager](https://github.com/NikitaPotapovIt/sez)** - Веб-приложение для управления задачами с Backend на Django.
+*   **[Link Shortener](https://github.com/NikitaPotapovIt/link_shortener)** - Веб-приложение для создания коротких и удобных ссылок. Backend (FastAPI) Frontend (Tkinter)
 
 *Проекты в разработке...*
 

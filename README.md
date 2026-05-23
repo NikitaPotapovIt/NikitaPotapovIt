@@ -17,7 +17,7 @@
 
 **My projects:**
 
-*   **[vpn_bot](https://github.com/NikitaPotapovIt/vpn_bot) — Telegram VPN management bot (Aiogram, WireGuard, billing, admin panel)
+*   [vpn_bot](https://github.com/NikitaPotapovIt/vpn_bot) — Telegram VPN management bot (Aiogram, WireGuard, billing, admin panel)
 *   **[RPC Framework for Embedded](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** - Framework for remote procedure call in C++ for embedded systems with UART protocol support (STM32, FreeRTOS).
 *   **[Desktop Analytics App](https://github.com/NikitaPotapovIt/CPP3DW)** - Cross-platform desktop application for data analysis with a graphical interface in Qt and C++.
 *   **[Desktop Calculator App](https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0)** - Cross-platform desktop engineering calculator, credit calculator with graphical interface in Qt and C++.

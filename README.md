@@ -24,6 +24,7 @@ I build web applications, APIs, automation tools, and production-ready services.
 
 ### 📌 Selected public projects
 
+- **[GoodFoodCoach](https://goodfoodcoach.ru)** — full-stack nutrition and wellness platform with courses, guided programs, member accounts, community features and a custom admin panel. Built with Next.js, Django, PostgreSQL and Docker.
 - **[VPN Management Bot](https://github.com/NikitaPotapovIt/vpn_bot)** — Telegram bot for VPN management, billing and administration.
 - **[Embedded RPC Framework](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** — C++ remote procedure call framework for embedded systems (UART, STM32, FreeRTOS).
 - **[Desktop Analytics App](https://github.com/NikitaPotapovIt/CPP3DW)** — cross-platform data analysis app with C++ and Qt.

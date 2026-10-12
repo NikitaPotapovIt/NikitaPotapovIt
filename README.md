@@ -1,76 +1,90 @@
-`nikita_potapov.py`
+<div align="center">
 
-```python
-from dataclasses import dataclass
+# nikita@github:~$
 
+`FULL-STACK / BACKEND DEVELOPER` &nbsp; `PYTHON` &nbsp; `TYPESCRIPT` &nbsp; `DEVOPS`
 
-@dataclass(frozen=True)
-class Developer:
-    name: str = "Nikita Potapov"
-    role: str = "Full-Stack / Backend Developer"
-    focus: tuple[str, ...] = (
-        "Web applications and APIs",
-        "DevOps and infrastructure",
-        "AI integrations and automation",
-    )
+<sub>Building web platforms, APIs, infrastructure and AI-powered tools.</sub>
 
-    tech_stack = {
-        "languages": ["Python", "TypeScript", "JavaScript", "C++", "SQL", "Dart"],
-        "backend": ["Django", "DRF", "FastAPI", "Pydantic"],
-        "frontend": ["React", "Next.js", "HTML", "CSS"],
-        "databases": ["PostgreSQL", "SQLite", "SQLAlchemy"],
-        "devops": ["Docker", "Docker Compose", "Nginx", "GitHub Actions", "Linux"],
-        "ai_and_automation": ["LLM integrations", "AI tools", "Telegram bots"],
-        "other": ["Flutter", "Qt", "CMake", "STM32", "FreeRTOS"],
-    }
+</div>
 
-    currently_building = (
-        "Full-stack platforms with Python, React and Next.js",
-        "Backend services and third-party integrations",
-        "CI/CD pipelines and containerized deployments",
-        "AI-powered applications and developer tools",
-    )
+---
 
+```console
+nikita@github:~$ whoami
+Nikita Potapov
+Full-Stack / Backend Developer
 
-projects = {
-    "GoodFoodCoach": {
-        "url": "https://goodfoodcoach.ru",
-        "description": "Nutrition platform with courses, programs, community and admin tools",
-        "stack": ["Next.js", "Django", "PostgreSQL", "Docker"],
-    },
-    "AnytoolAI Platform": {
-        "url": "https://github.com/gushinets/anytoolai-platform",
-        "description": "Collaborative development of AI platform features and tooling",
-    },
-    "VPN Management Bot": {
-        "url": "https://github.com/NikitaPotapovIt/vpn_bot",
-        "description": "VPN management, billing and administration via Telegram",
-    },
-    "Embedded RPC Framework": {
-        "url": "https://github.com/NikitaPotapovIt/embedded-rpc-protocol",
-        "description": "C++ RPC over UART for STM32 and FreeRTOS",
-    },
-    "Desktop Analytics": {
-        "url": "https://github.com/NikitaPotapovIt/CPP3DW",
-        "description": "Cross-platform data analysis with C++ and Qt",
-    },
-    "SmartCalc": {
-        "url": "https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0",
-        "description": "Desktop engineering and financial calculator in C++ and Qt",
-    },
-    "Link Shortener": {
-        "url": "https://github.com/NikitaPotapovIt/link_shortener",
-        "description": "URL shortening application with FastAPI",
-    },
-}
+nikita@github:~$ cat /etc/developer.conf
+FOCUS="Full-stack platforms | APIs | AI integrations | DevOps"
+CURRENTLY_BUILDING="Web products, automation, CI/CD, developer tools"
+BACKGROUND="C++ | Qt | Embedded systems"
+```
 
-# Some current projects are maintained in private repositories.
+### `nikita@github:~$ cat stack.json`
 
-contact = {
-    "telegram": "https://t.me/nikitayurievichp",
-    "linkedin": "https://www.linkedin.com/in/nikita-potapov-98a100346",
-    "email": "nikitapotapovit@gmail.com",
+```json
+{
+  "languages":  ["Python", "TypeScript", "JavaScript", "C++", "SQL", "Dart"],
+  "backend":    ["Django", "Django REST Framework", "FastAPI", "Pydantic"],
+  "frontend":   ["React", "Next.js", "HTML", "CSS"],
+  "databases":  ["PostgreSQL", "SQLite", "SQLAlchemy"],
+  "devops":     ["Docker", "Docker Compose", "Nginx", "GitHub Actions", "CI/CD", "Linux"],
+  "ai":         ["LLM integrations", "AI-powered tools", "Automation", "Telegram bots"],
+  "other":      ["Flutter", "Qt", "CMake", "STM32", "FreeRTOS"]
 }
 ```
 
-`README.md` · [Live project: GoodFoodCoach](https://goodfoodcoach.ru) · [Telegram](https://t.me/nikitayurievichp) · [LinkedIn](https://www.linkedin.com/in/nikita-potapov-98a100346)
+### `nikita@github:~$ ls -la ~/projects/`
+
+```console
+drwxr-xr-x  full-stack/    GoodFoodCoach
+drwxr-xr-x  ai/            AnytoolAI Platform
+drwxr-xr-x  automation/    VPN Management Bot
+drwxr-xr-x  embedded/      Embedded RPC Framework
+drwxr-xr-x  desktop/       Desktop Analytics
+drwxr-xr-x  desktop/       SmartCalc
+drwxr-xr-x  backend/       Link Shortener
+```
+
+| Project | Description | Stack |
+| :-- | :-- | :-- |
+| **[GoodFoodCoach](https://goodfoodcoach.ru)** | Live nutrition platform: courses, programs, community features and custom admin panel | `Next.js` `Django` `PostgreSQL` `Docker` |
+| **[AnytoolAI Platform](https://github.com/gushinets/anytoolai-platform)** | Collaborative development of AI platform features and tooling | `Python` `AI` `Web` |
+| **[VPN Management Bot](https://github.com/NikitaPotapovIt/vpn_bot)** | Telegram-based VPN management, billing and administration | `Python` `Telegram` |
+| **[Embedded RPC Framework](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** | RPC over UART for microcontrollers | `C++` `STM32` `FreeRTOS` |
+| **[Desktop Analytics](https://github.com/NikitaPotapovIt/CPP3DW)** | Cross-platform desktop data analysis | `C++` `Qt` |
+| **[SmartCalc](https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0)** | Engineering and financial desktop calculator | `C++` `Qt` |
+| **[Link Shortener](https://github.com/NikitaPotapovIt/link_shortener)** | URL shortening application | `FastAPI` `Python` |
+
+```console
+nikita@github:~$ ls ~/projects/private/
+Permission denied: source repositories are private.
+# Some current web, mobile and automation projects are not publicly listed.
+```
+
+### `nikita@github:~$ cat current_focus.txt`
+
+```text
+[01] Full-stack web applications with Python, React and Next.js
+[02] Reliable backend services and third-party API integrations
+[03] Containerized deployments and automated CI/CD pipelines
+[04] AI-powered products, LLM integrations and developer tooling
+[05] Cross-platform mobile development with Flutter and Dart
+```
+
+### `nikita@github:~$ cat contact.env`
+
+```dotenv
+TELEGRAM=@nikitayurievichp
+LINKEDIN=nikita-potapov-98a100346
+EMAIL=nikitapotapovit@gmail.com
+```
+
+**Connect:** [Telegram](https://t.me/nikitayurievichp) `|` [LinkedIn](https://www.linkedin.com/in/nikita-potapov-98a100346) `|` [Email](mailto:nikitapotapovit@gmail.com)
+
+```console
+nikita@github:~$ echo "Let's build something useful."
+Let's build something useful.
+nikita@github:~$ _
+```

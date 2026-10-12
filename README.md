@@ -1,40 +1,76 @@
-# Hi, I'm Nikita! 👋
+`nikita_potapov.py`
 
-**Full-Stack / Backend Developer | Python · TypeScript · React · DevOps**
+```python
+from dataclasses import dataclass
 
-I build web applications, APIs, automation tools, and production-ready services. My work spans backend and frontend development, system integrations, containerized deployments, and AI-powered workflows. I also have a background in C++ and desktop development.
 
-### 🛠 Tech stack
+@dataclass(frozen=True)
+class Developer:
+    name: str = "Nikita Potapov"
+    role: str = "Full-Stack / Backend Developer"
+    focus: tuple[str, ...] = (
+        "Web applications and APIs",
+        "DevOps and infrastructure",
+        "AI integrations and automation",
+    )
 
-- **Languages:** Python · TypeScript · JavaScript · C++ · SQL · Dart
-- **Backend:** Django · Django REST Framework · FastAPI · REST APIs · Pydantic
-- **Frontend:** React · Next.js · HTML · CSS
-- **Databases:** PostgreSQL · SQLite · SQLAlchemy
-- **DevOps & infrastructure:** Docker · Docker Compose · Nginx · GitHub Actions · CI/CD · Linux · Git
-- **AI & automation:** LLM integrations · AI-powered tools · Telegram bots · API integrations
-- **Other:** Flutter · Qt · CMake · Embedded systems (STM32, FreeRTOS)
+    tech_stack = {
+        "languages": ["Python", "TypeScript", "JavaScript", "C++", "SQL", "Dart"],
+        "backend": ["Django", "DRF", "FastAPI", "Pydantic"],
+        "frontend": ["React", "Next.js", "HTML", "CSS"],
+        "databases": ["PostgreSQL", "SQLite", "SQLAlchemy"],
+        "devops": ["Docker", "Docker Compose", "Nginx", "GitHub Actions", "Linux"],
+        "ai_and_automation": ["LLM integrations", "AI tools", "Telegram bots"],
+        "other": ["Flutter", "Qt", "CMake", "STM32", "FreeRTOS"],
+    }
 
-### 🚀 What I'm working on
+    currently_building = (
+        "Full-stack platforms with Python, React and Next.js",
+        "Backend services and third-party integrations",
+        "CI/CD pipelines and containerized deployments",
+        "AI-powered applications and developer tools",
+    )
 
-- Full-stack web platforms built with **Python, React, Next.js and TypeScript**.
-- **Backend services and integrations**, including bots, APIs and automation.
-- **Docker-based deployment, CI/CD pipelines**, and reliable release workflows.
-- **AI-powered products and developer tools**, including collaborative work on [AnytoolAI Platform](https://github.com/gushinets/anytoolai-platform).
-- Exploring **cross-platform mobile development** with Flutter and Dart.
 
-### 📌 Selected public projects
+projects = {
+    "GoodFoodCoach": {
+        "url": "https://goodfoodcoach.ru",
+        "description": "Nutrition platform with courses, programs, community and admin tools",
+        "stack": ["Next.js", "Django", "PostgreSQL", "Docker"],
+    },
+    "AnytoolAI Platform": {
+        "url": "https://github.com/gushinets/anytoolai-platform",
+        "description": "Collaborative development of AI platform features and tooling",
+    },
+    "VPN Management Bot": {
+        "url": "https://github.com/NikitaPotapovIt/vpn_bot",
+        "description": "VPN management, billing and administration via Telegram",
+    },
+    "Embedded RPC Framework": {
+        "url": "https://github.com/NikitaPotapovIt/embedded-rpc-protocol",
+        "description": "C++ RPC over UART for STM32 and FreeRTOS",
+    },
+    "Desktop Analytics": {
+        "url": "https://github.com/NikitaPotapovIt/CPP3DW",
+        "description": "Cross-platform data analysis with C++ and Qt",
+    },
+    "SmartCalc": {
+        "url": "https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0",
+        "description": "Desktop engineering and financial calculator in C++ and Qt",
+    },
+    "Link Shortener": {
+        "url": "https://github.com/NikitaPotapovIt/link_shortener",
+        "description": "URL shortening application with FastAPI",
+    },
+}
 
-- **[GoodFoodCoach](https://goodfoodcoach.ru)** — full-stack nutrition and wellness platform with courses, guided programs, member accounts, community features and a custom admin panel. Built with Next.js, Django, PostgreSQL and Docker.
-- **[VPN Management Bot](https://github.com/NikitaPotapovIt/vpn_bot)** — Telegram bot for VPN management, billing and administration.
-- **[Embedded RPC Framework](https://github.com/NikitaPotapovIt/embedded-rpc-protocol)** — C++ remote procedure call framework for embedded systems (UART, STM32, FreeRTOS).
-- **[Desktop Analytics App](https://github.com/NikitaPotapovIt/CPP3DW)** — cross-platform data analysis app with C++ and Qt.
-- **[SmartCalc](https://github.com/NikitaPotapovIt/CPP3_SmartCalc_v2.0)** — desktop engineering and financial calculator in C++ and Qt.
-- **[Link Shortener](https://github.com/NikitaPotapovIt/link_shortener)** — URL shortening application built with FastAPI.
+# Some current projects are maintained in private repositories.
 
-*Some of my current web, automation and mobile projects are maintained in private repositories.*
+contact = {
+    "telegram": "https://t.me/nikitayurievichp",
+    "linkedin": "https://www.linkedin.com/in/nikita-potapov-98a100346",
+    "email": "nikitapotapovit@gmail.com",
+}
+```
 
-### 📫 Contact
-
-- **Telegram:** [@nikitayurievichp](https://t.me/nikitayurievichp)
-- **LinkedIn:** [Nikita Potapov](https://www.linkedin.com/in/nikita-potapov-98a100346)
-- **Email:** nikitapotapovit@gmail.com
+`README.md` · [Live project: GoodFoodCoach](https://goodfoodcoach.ru) · [Telegram](https://t.me/nikitayurievichp) · [LinkedIn](https://www.linkedin.com/in/nikita-potapov-98a100346)
